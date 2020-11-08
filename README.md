@@ -1,8 +1,14 @@
-# [Pharaonic] Laravel >= 6.0 - Relational.
+<p align="center"><a href="https://pharaonic.io" target="_blank"><img src="https://raw.githubusercontent.com/Pharaonic/logos/main/relational.jpg" width="470"></a></p>
 
-#  [![Latest Stable Version](https://poser.pugx.org/pharaonic/laravel-relational/v/stable)](https://packagist.org/packages/pharaonic/laravel-relational) [![Total Downloads](https://poser.pugx.org/pharaonic/laravel-relational/downloads)](https://packagist.org/packages/pharaonic/laravel-relational) [![License](https://poser.pugx.org/pharaonic/laravel-settings/license)](https://packagist.org/packages/pharaonic/laravel-relational)
+<p align="center">
+<a href="https://github.com/Pharaonic/laravel-relational" target="_blank"><img src="http://img.shields.io/badge/source-pharaonic/laravel--relational-blue.svg?style=flat-square" alt="Source"></a> <a href="https://packagist.org/packages/pharaonic/laravel-relational" target="_blank"><img src="https://img.shields.io/packagist/v/pharaonic/laravel-relational?style=flat-square" alt="Packagist Version"></a><br>
+<a href="https://laravel.com" target="_blank"><img src="https://img.shields.io/badge/Laravel->=6.0-red.svg?style=flat-square" alt="Laravel"></a> <img src="https://img.shields.io/packagist/dt/pharaonic/laravel-relational?style=flat-square" alt="Packagist Downloads"> <img src="http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Source">
+</p>
 
-#### Laravel - Simple relationships (Parents/Children) for model.
+
+##### Laravel - Simple relationships (Parents/Children) for model.
+
+-----
 
 ###### Example:
 
