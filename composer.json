@@ -1,0 +1,43 @@
+{
+    "name": "pharaonic/laravel-relational",
+    "description": "Laravel - Simple relationships (Parents/Children) for model.",
+    "keywords": [
+        "php",
+        "laravel",
+        "relational",
+        "relations",
+        "relationships",
+        "parents",
+        "children",
+        "Pharaonic"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raggi",
+            "email": "support@pharaonic.io",
+            "homepage": "https://pharaonic.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=6.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pharaonic\\Laravel\\Relational\\RelationalServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Pharaonic\\Laravel\\Relational\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
