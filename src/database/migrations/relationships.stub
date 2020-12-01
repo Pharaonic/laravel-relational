@@ -14,7 +14,7 @@ class CreateRelationshipsTable extends Migration
     public function up()
     {
         Schema::create('relationships', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             
             $table->string('parent_id');
             $table->string('parent_string');
