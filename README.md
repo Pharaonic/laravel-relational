@@ -1,4 +1,4 @@
-<p align="center"><a href="https://pharaonic.io" target="_blank"><img src="https://raw.githubusercontent.com/Pharaonic/logos/main/sluggable.jpg" width="470"></a></p>
+<p align="center"><a href="https://pharaonic.io" target="_blank"><img src="https://raw.githubusercontent.com/Pharaonic/logos/main/relational.jpg" width="470"></a></p>
 
 
 <h3 align="center">Simplest relationships (Parents/Children) for model.</h3>
