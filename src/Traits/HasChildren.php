@@ -4,7 +4,7 @@ namespace Pharaonic\Laravel\Relational\Traits;
 
 use Pharaonic\Laravel\Relational\Relationship;
 
-trait hasChildren
+trait HasChildren
 {
 
     /**
