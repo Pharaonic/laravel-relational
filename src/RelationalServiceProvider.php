@@ -8,12 +8,13 @@ class RelationalServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->publishes([
-            __DIR__ . '/database/migrations/relationships.stub' => database_path(sprintf('migrations/%s_create_relationships_table.php', date('Y_m_d_His'))),
-        ], ['pharaonic', 'laravel-relational']);
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
     }
 
     public function register()
     {
+        $this->publishes([
+            __DIR__ . '/database/migrations/2021_02_01_000009_create_relationships_table.php' => database_path('migrations/2021_02_01_000009_create_relationships_table.php'),
+        ], ['pharaonic', 'laravel-relational']);
     }
 }
