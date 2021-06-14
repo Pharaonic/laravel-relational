@@ -17,9 +17,9 @@ class CreateRelationshipsTable extends Migration
             $table->bigIncrements('id');
             
             $table->string('parent_id');
-            $table->string('parent_string');
+            $table->string('parent_type');
             $table->string('child_id');
-            $table->string('child_string');
+            $table->string('child_type');
 
             $table->timestamps();
         });
