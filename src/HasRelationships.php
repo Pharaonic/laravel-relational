@@ -6,5 +6,5 @@ use Pharaonic\Laravel\Relational\Traits\{HasChildren, HasParents};
 
 trait HasRelationships
 {
-    use hasChildren, hasParents;
+    use HasChildren, HasParents;
 }
